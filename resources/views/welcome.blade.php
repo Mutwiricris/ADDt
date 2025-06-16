@@ -10,7 +10,7 @@
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
-    @vite(entrypoints: ['resources/css/', 'resources/js/app.js'])
+    {{-- @vite(entrypoints: ['resources/css/', 'resources/js/app.js']) --}}
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset("css/bootstrap.css") }}">
