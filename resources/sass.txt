@@ -1,0 +1,3 @@
+sass --watch "C:\Users\Admin\Dropbox\Harun Pure\budgeto\assets\scss\main.scss":"C:\Users\Admin\Dropbox\Harun Pure\budgeto\assets\css\main.css"
+
+sass --watch "C:\Users\harun\Dropbox\Harun Pure\budgeto\assets\scss\main.scss":"C:\Users\harun\Dropbox\Harun Pure\budgeto\assets\css\main.css"
