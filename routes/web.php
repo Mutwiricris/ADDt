@@ -8,6 +8,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+//contact
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+
+use App\Http\Controllers\ContactController;
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
